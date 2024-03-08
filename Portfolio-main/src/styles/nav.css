@@ -1,0 +1,89 @@
+.taille {
+    font-size: 1.25rem;
+    /* 20px */
+}
+
+@media screen and (max-width: 600px) {
+    .taille {
+        font-size: 1rem;
+    }
+}
+
+nav>h1 {
+    color: var(--text-color);
+}
+
+nav>ul>li>a {
+    color: var(--text-color);
+    font-weight: bold;
+    text-decoration: no-underline;
+    position: relative;
+}
+
+nav>ul>li>a::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(206, 206, 255);
+    transition: width 0.2s ease-out;
+}
+
+nav>ul>li>a:hover::before {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        padding-left: 1rem !important;
+        padding-right: 2rem !important;
+    }
+
+    .taille {
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    #contact-left {
+        display: none !important;
+    }
+}
+
+#contact-left {
+    position: fixed;
+    padding: 1rem;
+    margin-top: 55vh;
+    margin-left: 2vh;
+    text-align: center;
+    z-index: 100;
+}
+
+#contact-left #contact-left-links {
+    margin-bottom: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 6vh;
+}
+
+#contact-left #contact-line {
+    background-color: #000;
+    height: 30vh;
+    padding: 0.75px;
+    display: inline-block;
+}
+
+#contact-left svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: #000;
+    transition: all .3s;
+}
