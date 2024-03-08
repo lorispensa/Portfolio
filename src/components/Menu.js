@@ -14,7 +14,7 @@ const Menu = ({ toggleDarkMode }) => {
 						<Link to="/Home">Accueil</Link>
 					</li>
 					<li>
-						<Link to="/About">APropos</Link>
+						<Link to="/About">A Propos</Link>
 					</li>
 					<li>
 						<Link to="/Projects">Projets</Link>
