@@ -18,10 +18,10 @@ const Home = () => {
                                 <h1>Bienvenue sur mon portfolio 👋 </h1>
                                 <p>Étudiant en informatique à l'Université Côte d'Azur.</p>
                                 <span className="flex gap-4 mt-4">
-                                    <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/rayan-outili-8327b024a/">
+                                    <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/loris-pensa/">
                                         <img className="w-10 h-10" src={lk} alt="LinkedIn Icon" />
                                     </a>
-                                    <a aria-label="github" rel="noreferrer" target="_blank" href="https://github.com/RayanOUTILI">
+                                    <a aria-label="github" rel="noreferrer" target="_blank" href="https://github.com/lorispensa">
                                         <img className="w-10 h-10" src={gh} alt="Github Icon" />
                                     </a>
                                 </span>
